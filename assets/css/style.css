@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border-color: #8d8d8d;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.header-top{
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid var(--border-color);
+   opacity:.5;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul .join-us,
+ul .jordan-logo,
+ul .snkrs-header-top{
+    border: 1px solid var(--border-color);
+    padding: 8px 28px;
+        
+}
+.join-us a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+.jordan-logo img,
+.snkrs-header-top img{
+    height:20px;
+    max-width:32px;
+    width:100%;
+    object-fit:contain;
+    top:-2px;
+    position:relative;
+    
+}
+.track-orders,
+.login-header-top,
+.help-header-top{
+    display: flex;
+    align-items: center;
+    padding: 0px 24px 0px 0px;
+    height: 100%;
+    padding-top:0!important;
+    padding-bottom:0!important;
+    color: var(--border-color);
+}
+.cart{
+    display: flex;
+    align-items:center;
+    padding:10px 24px 8px 0px;
+}
+.cart img{
+    height:18px;
+    width: 100%;
+    max-width: 20px;
+    object-fit: contain;
+    top:-2px;
+    position:relative;
+    
