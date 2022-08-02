@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #ffffff;
 }
 :root{
     --border-color: #8d8d8d;
@@ -51,6 +55,7 @@ ul .snkrs-header-top{
     padding-top:0!important;
     padding-bottom:0!important;
     color: var(--border-color);
+    cursor: pointer;
 }
 .cart{
     display: flex;
@@ -64,4 +69,43 @@ ul .snkrs-header-top{
     object-fit: contain;
     top:-2px;
     position:relative;
+}
+nav{
+    display: flex;
+    border:1px solid var(--border-color);
     
+    justify-content: space-around;
+}
+.navigation{
+    display:flex;
+    padding:0px 0px 0px 60px;
+    justify-content: space-between;
+}
+.nav-options{
+    display: flex;
+    padding:25px 20px;
+    align-items:center;
+    font-weight:bolder;
+    font-family:'Futura Condensed Extra Bold';
+}
+div .input-search-box{
+    display: flex;
+    align-items: center;
+    
+}
+div .input-search{
+    display: flex;
+    padding: 5px 10px;
+    border: 1px solid var(--border-color);
+}
+.search-img{
+    border: none;
+    width:15px;
+    height:15px;
+    margin: 3px;
+}
+input[type=text]{
+    border: none;
+    margin-left: 10px;
+}
+
