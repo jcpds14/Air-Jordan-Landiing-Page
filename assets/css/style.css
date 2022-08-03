@@ -148,22 +148,30 @@ input[type=text] {
 .all{
     display:flex;
     width: 85%;
+    justify-content: space-between;
 }
 .product{ 
-   padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+   
 }
 .product img{
     width: auto;
-    max-width:350px;
+    max-width:250px;
     height:auto;
     padding:5px;
 }
 #specs-box{
-    
+    border: 1px solid red;
+    width: 300px;
 }
-#specs-box p{
+#specs-box p,
+.price-spec strong,
+.installment-spec{
     font-size: 15px;
 }
 #specs-box h1{
-    font-size: 30px;
+    font-size: 20px;
 }
